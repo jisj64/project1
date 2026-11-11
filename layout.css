@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Grid 與版面配置 */
+.hero, .intro-grid, .content-two-col, .market-lead-grid, .film-grid, .visit-grid {
+    align-items: start;
+}
+.section-heading > div { flex: 1; }
+.section-heading .section-lead { min-width: 220px; }
+.photo-grid img, .market-photo-grid img {
+    transition: transform .6s ease;
+}
+.photo-grid figure:hover img, .market-photo-grid figure:hover img {
+    transform: scale(1.025);
+}
